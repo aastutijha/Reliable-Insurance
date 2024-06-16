@@ -30,7 +30,7 @@ const BlogSection = () => {
     <section className="py-16 bg-gray-100">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-sm font-semibold text-blue-600 uppercase tracking-wide">Blog</h2>
+        <h2 className="text-sm md:text-lg font-semibold text-blue-600 uppercase tracking-wide">Blog</h2>
           <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             Reliable Life Updates
           </h3>
