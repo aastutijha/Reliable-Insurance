@@ -1,7 +1,7 @@
 // src/main.jsx
-import {} from 'react';
+import React from 'react';
 import mascot from '../../assets/main/maskot.png';
-import bg from '../../assets/main/bg.jpg'; 
+import bg from '../../assets/main/bg.jpg';
 
 const Main = () => {
   return (
@@ -11,7 +11,7 @@ const Main = () => {
       backgroundPosition: 'center',
       paddingTop: '60px' // Add padding to the top equal to the navbar's height
     }} className="font-sans text-white p-5">
-      <div className="p-5 rounded-lg text-left">
+      <div className="p-5 rounded-lg text-left"style={{ marginTop: '20px' }} >
         <h1 className="text-4xl font-bold text-orange-500">Only @ Rs. 3100</h1>
         <h2 className="text-3xl">max benefit upto </h2>
         <h2 className="text-4xl text-orange-500"> Rs. 14.50 Lacs</h2>
@@ -35,7 +35,7 @@ const Main = () => {
           </div>
           <button className="bg-orange-500 text-white px-4 py-2 rounded-md">GO NEXT</button>
         </div>
-        <div className="flex-1 text-right mt- 0">
+        <div className="flex-1 text-right mt-0">
           <img src={mascot} alt="Mascot" className="w-74 h-auto inline-block" />
         </div>
       </div>

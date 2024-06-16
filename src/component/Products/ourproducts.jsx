@@ -70,9 +70,9 @@ const Products = () => {
   }, [navigate]);
 
   return (
-    <div className="container mx-auto p-4 ">
-      <h1 className="text-center text-xl font-bold" style={{ color: '#F05A27' }}>Our Products</h1>
-      <h2 className="text-center text-2xl font-bold" style={{ color: '#024F97' }}>Types of Reliable Life Insurance</h2>
+    <div className="container mx-auto p-4">
+      <h1 className="text-center font-bold" style={{ color: '#F05A27', marginBottom: '10px', fontSize: '2rem' }}>Our Products</h1>
+      <h2 className="text-center text-2xl font-bold" style={{ color: '#024F97', marginBottom: '10px' }}>Types of Reliable Life Insurance</h2>
       <h3 className="text-center text-xl font-light" style={{ color: '#024F97' }}>Life is unpredictable, and unexpected events can happen at any time, such as a sudden illness or injury, a natural disaster, or an unexpected death.</h3>
       <div className="flex flex-wrap justify-center mt-8 overflow-hidden">
         <div className="w-full flex justify-center mb-4">
