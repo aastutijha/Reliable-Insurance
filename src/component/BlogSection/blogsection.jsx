@@ -49,9 +49,9 @@ const BlogSection = () => {
                   <span>{post.date}</span> <span className="mx-2">|</span> <span>By {post.author}</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-blue-900">{post.title}</h3>
-                <a href="https://www.reliable.prabidhienterprises.com/blog-details.html" className="text-blue-600 hover:text-blue-800 font-medium">
+                {/* <a href="https://www.reliable.prabidhienterprises.com/blog-details.html" className="text-blue-600 hover:text-blue-800 font-medium">
         Read More +
-      </a>
+      </a> */}
               </div>
             </div>
           ))}

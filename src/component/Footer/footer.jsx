@@ -205,7 +205,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex relative py-4 justify-center gap-1 text-white font-semibold bg-orange-500 w-full items-center text-base">
-        Copyright 2023{` `}
+        Copyright 2024 Astuti{` `}
         <a href="https://reliablelife.com.np/"> Reliable Life Insurance</a>
       </div>
     </footer>

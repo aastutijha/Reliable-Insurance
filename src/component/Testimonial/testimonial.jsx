@@ -112,7 +112,7 @@ const Testimonial = () => {
         </div>
 
         <footer className="mt-4 text-sm font-medium text-orange-500  sm:mt-6">
-          &mdash; Srijana Subba
+          &mdash; Sneha Neupane
         </footer>
       </blockquote>
 
@@ -262,7 +262,7 @@ const Testimonial = () => {
         </div>
 
         <footer className="mt-4 text-sm font-medium text-orange-500 sm:mt-6">
-          &mdash; Lokesh Nokeash
+          &mdash; Ashutosh JHa
         </footer>
       </blockquote>
     </div>
